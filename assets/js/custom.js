@@ -19,6 +19,11 @@
     view: 'datatable', 
     load: "datatable.html"
   });
+  
+  app.route({
+    view: 'form', 
+    load: "form.html"
+  });
 
   // run app
   app.run();
